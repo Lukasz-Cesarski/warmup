@@ -65,3 +65,5 @@ sudo n stable
 jupyter labextension install jupyterlab-plotly@4.14.3
 jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget@4.14.3
 
+### CUSTOMIZE VENV WITH SCR CODE ###
+echo "export PYTHONPATH=`pwd`" >> $VIRTUAL_ENV/bin/activate
