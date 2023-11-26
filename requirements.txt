@@ -1,0 +1,23 @@
+numpy
+pandas
+matplotlib
+jupyterlab
+torch
+spacy
+seaborn
+transformers
+fuzzywuzzy
+python-Levenshtein
+tqdm
+torchsummary
+torchvision
+ipywidgets
+wandb
+scikit-learn
+sentence-transformers
+datasets
+wordcloud
+gensim
+torchtext
+protobuf==3.20.*  # huggingface requirement for downloading models
+accelerate>=0.20.1 # Using the `Trainer` with `PyTorch` requires `accelerate>=0.20.1`

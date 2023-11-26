@@ -25,6 +25,8 @@ touch ~/.global_gitignore
 git config --global core.excludesfile ~/.global_gitignore
 echo "sandbox/" >> ~/.global_gitignore
 echo ".idea/" >> ~/.global_gitignore
+echo ".vscode/" >> ~/.global_gitignore
+
 
 ssh-keygen -t ed25519 -C "your_email@example.com"
 less ~/.ssh/id_ed25519.pub
